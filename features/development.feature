@@ -8,7 +8,7 @@ Feature: Development processes of jenkins itself (rake tasks)
     Given this project is active project folder
     When I invoke task "rake clean" so that I start with nothing
     And I invoke task "rake build"
-    Then file with name matching "pkg/jenkins-*.gem" is created
+    Then file with name matching "pkg/*jenkins-*.gem" is created
     And file with name matching "jenkins.gemspec" is created
     And the file "jenkins.gemspec" is a valid gemspec
 

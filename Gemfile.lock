@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jenkins (0.6.4)
+    wp-jenkins (0.6.4)
       builder (~> 2.1.2)
       hpricot
       httparty (~> 0.6.1)
@@ -50,7 +50,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   cucumber (~> 0.10.0)
-  jenkins!
   jenkins-war (>= 1.396)
   rake (~> 0.8.7)
   rspec (~> 2.0.0)
+  wp-jenkins!
